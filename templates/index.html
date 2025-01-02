@@ -1,0 +1,21 @@
+
+#### **4. `templates/index.html` (Optional)**
+You can use this if you want to manage the HTML outside of `app.py`. Example content:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>QR Code Generator</h1>
+    <form action="/generate" method="post">
+        <label for="data">Enter text or URL:</label><br>
+        <input type="text" id="data" name="data" required><br><br>
+        <button type="submit">Generate QR Code</button>
+    </form>
+</body>
+</html>
