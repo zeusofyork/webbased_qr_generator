@@ -15,4 +15,4 @@ A simple Python web application to generate QR codes from text or URLs. Built wi
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/qr-code-generator.git
+   git clone [https://github.com/your-repo/qr-code-generator.git](https://github.com/zeusofyork/webbased_qr_generator)
